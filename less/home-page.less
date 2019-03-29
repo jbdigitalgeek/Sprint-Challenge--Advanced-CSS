@@ -22,8 +22,7 @@
   }
 
   .space-images {
-    display: flex;
-    flex-wrap: wrap;
+    .flexwrap();
     width: 100%;
 
     img {
@@ -65,6 +64,10 @@
       }
 
       .btn {
+        .button-creator(25%, 2rem, black, white);
+        padding: 5px;
+        text-align: center;
+        border: 1px solid black;
       }
     }
 
