@@ -1,7 +1,7 @@
 // Navigation code here
 .navbar {
     width: 100%;
-    background-color:#f4f4f4;
+    background-color:@nav-bg;
     position: fixed;
     border-bottom: 1px double #e0e0e0
 }
@@ -24,9 +24,11 @@
         display: flex;
         justify-content: center;
         justify-content: space-around;
+        
         a {
             text-decoration: none;
             font-size: 1.2rem;
+            font-family: @nav-font;
         }
     }
     
