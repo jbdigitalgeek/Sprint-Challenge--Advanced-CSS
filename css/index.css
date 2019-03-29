@@ -160,6 +160,34 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navbar {
+  width: 100%;
+  background-color: #f4f4f4;
+  position: fixed;
+  border-bottom: 1px double #e0e0e0;
+}
+.navcontainer {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem 0;
+  justify-content: space-between;
+}
+.navcontainer h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  margin: 2%;
+}
+.navcontainer nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.navcontainer nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +197,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro {
+  padding-top: 105px;
+}
+.home .intro .welcomeheader {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
 }
 .home .intro h2 {
   padding: 15px;
